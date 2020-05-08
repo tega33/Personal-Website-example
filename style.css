@@ -1,0 +1,89 @@
+
+body {
+    background-color: grey;
+    align-content: center;
+}
+
+p {
+    font-weight: bold;
+    size: 12px;
+    padding: 10px;
+}
+h1 {
+font-size: medium;
+align-content: flex-end;
+padding: 20px;
+}
+.header {
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+}
+img {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+.social {
+    height: 100px;
+    width: 100px;
+}
+.footer {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    width: 100%;   
+}
+.content-social {
+    display: flex wrap;
+    float: left;
+    background-color: darkgrey;
+    padding: 10px 5px;
+    width: 8%;
+    margin: 5px;
+}
+
+h1 {
+    font-size: larger;
+    padding: 10px;
+    align-content: flex-end;
+}
+h4 {
+    font-size: large;
+    padding: 10px;
+    align-content: flex-end
+}
+
+#skills {
+    display: flex wrap;
+    float: right;
+    background-color: aquamarine;
+    padding: 10px 5px;
+    width: 15%;
+    margin: 5px;
+    flex-direction: column;
+    
+
+}
+
+li {
+    list-style: none;
+}
+
+#githubtega33 {
+    display: flex wrap;
+    flex-direction: column;
+    text-align: center;
+    float: center;
+    width: 100%;
+    justify-self: center;
+    background-color: lightblue;
+    border: 5px solid black;
+    text-decoration: none;
+    color: magenta;
+}
+
+a {
+    text-decoration: none;
+    color: magenta;
+}
